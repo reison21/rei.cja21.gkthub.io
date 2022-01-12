@@ -1,0 +1,42 @@
+p{
+	margin: 30px;
+	padding: 80px;
+	color: white;
+	text-align: center;
+}
+
+.one{
+	background-color: #fcba03
+}
+
+.two{
+	background-color: rgb(312,54,3);
+}
+.three{
+	background: rgb(213,120,9);
+}
+.four{
+	background-color: rgb(341,423,35);
+}
+.five{
+	background-color: rgb(231,56,876);
+}
+.six{
+	background-color: rgb(412,153,45);
+}
+.seven{
+	background-color: rgb(325,785,23);
+}
+.eight{
+	background-color: rgb(132,458,12);
+}
+
+.nine{
+	background-color: rgb(247,133,46);
+}
+.ten{
+	background-color: rgb(524,131,87);
+}
+body{
+	background-color: green;
+}

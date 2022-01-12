@@ -1,0 +1,24 @@
+:rout {
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: lightblue;
+}
+h1 {
+	background-color: darkblue;
+	color:white;
+	padding:30px;
+	font-size:50px;
+}
+#hallo{
+	background-color: red;
+	color: black;
+}
+p{
+	width: 400px;
+}
+img{
+	width: 300px;
+	margin: 5px;
+}
