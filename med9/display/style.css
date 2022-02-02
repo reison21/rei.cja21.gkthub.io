@@ -1,0 +1,46 @@
+h2{
+	font-size: 25px;
+	padding: 30px;
+	background-color: rgb(234,23,100);
+	display: inline-block;
+
+}
+
+
+.red{
+	background-color: blue;
+	font-size: 30px;
+}
+.green{
+	background-color: green;
+	letter-spacing: 6px;
+}
+.purple{
+	background-color: purple;
+	letter-spacing: 6px;
+}
+body{
+	background:   linear-gradient(90deg, rgba(52,124,164,1) 37%, rgba(63,185,28,0.7399334733893557) 58%, rgba(255,0,185,1) 91%);
+	padding:1px;
+}
+
+a{
+	display: block;
+	padding: 30px;
+	margin: 10px;
+	font-size: 30px;
+	border: 3px solid blue;
+	background-color: lightblue;
+}
+
+
+h1{
+	font-size: 25px;
+	background-color: rgb(123,123,31);
+}
+h2{
+	font-size: 25px;
+	background-color: rgb(213,145,213);
+}
+
+	
