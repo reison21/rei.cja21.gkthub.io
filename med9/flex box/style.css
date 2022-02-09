@@ -1,0 +1,46 @@
+.first{
+	background-color: red;
+	height: 400px;
+	display: flex;
+	justify-content:  space-evenly;
+	align-items: stretch;
+}
+
+p{
+	background-color: green;
+	padding: 10px;
+	margin: 10px;
+}
+.second{
+	background-color: lightgreen;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.third{
+	height: 400px;
+	background-color: yellow;
+	display: flex;
+	justify-content:flex-end;
+	align-items: flex-end;
+
+}
+.fourth{
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	height: 400px;
+	background-color: blue;
+}
+img{
+	height: 150px;
+	width: 200px;
+}
+body{
+	background: linear-gradient(90deg, rgba(52,124,164,1) 37%, rgba(63,185,28,0.7399334733893557) 58%, rgba(255,0,185,1) 91%);
+}
+
