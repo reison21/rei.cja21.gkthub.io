@@ -1,52 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Smooch+Sans:wght@200&display=swap');
-*{
-	box-sizing: border-box;
-	padding:0px;
-	margin: 0px;
-}
+/*
+*
+* Title:Basic structure of a page 
+*Author:Paul Opitz
+*Date:2022-03-16
+*/
+
+
+
+/*********** General Styling *********/
+
+
+
 body{
-	background-color:  radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(248,30,35,1) 48%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 	margin: 0px;
-	font-family: "Roboto":;
 }
 
-
-
+/* Navigation*/
 nav{
-	background-color:lightblue;
+	background: darkblue;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 30px;
+	padding: 15px;
 }
-
 nav img{
-	height: 70px;
-	width: 90px;
+	height: 80px;
 	border-radius: 50%;
-	list-style-type: none;
-}
-img{
-	border-radius: 35%;
-	height: 150px;
+	border: 2px solid white;
+
 }
 nav ul{
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	list-style-type: none;
+	list-style-type: none; 
 }
 nav ul li a{
-
-	margin: 20px;
-	padding: 20px;
-	text-decoration: none;
-	color:black;
-	border-radius: white;
-	background-color: white;
-
-
+	color: white;
+	margin-left:  15px;
+	padding: 10px 25px;
+	font-family: 'Roboto';
+	background-color: blue;
+	border-radius: 15px;
+	border: 2px solid red;
 }
-nav ul li a:hover{
-background-color : blue;
+
+header{
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("oli.jpg");
+	background-position: center;
+	background-size: cover;
+}
+header h1{
+	font-size: 20px;
+	background-color: white;
+	padding: 20px;
+}
+main{
+	padding: 50px;
+	background: radial-gradient(circle, rgba(174,238,177,1) 35%, rgba(233,189,148,1) 71%);
+	color: white;
+}
+main h2{
+	font-size: 20px;
+	color: darkblue;
+}
+
+footer{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 30px;
+	background-color: lightsteelblue;
+}
+footer p{
+	font-size: 20px;
+	background-color: white;
+	color: darkblue;
+	padding: 15px;
 }
