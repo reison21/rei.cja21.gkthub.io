@@ -5,6 +5,7 @@ body{
 	align-items: center;
 	min-height: 100vh;
 	background:  linear-gradient(90deg, rgba(176,5,57,1) 27%, rgba(5,17,176,1) 46%, rgba(148,233,199,1) 71%);
+	font-family: "Roboto",sans-serif;
 }
 
 article .image{
