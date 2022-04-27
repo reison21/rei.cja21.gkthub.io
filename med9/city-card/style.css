@@ -1,0 +1,50 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: lightgray;
+}
+article{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+article .left{
+	height: 180px;
+	width: 300px;
+	background-image: url('abi.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 20px;
+}
+article .right{
+	position: relative;
+	height: 180px;
+	width: 320px;
+	background: linear-gradient(90deg, rgba(5,17,176,1) 37%, rgba(148,233,199,1) 71%);
+	padding: 20px;
+}
+
+article p{
+	position: absolute;
+	left: -50px;
+    top: 50px;
+	color: white;
+	background-color: green;
+	font-size: 20px;
+	padding: 15px;
+	font-family: 'Roboto';
+	z-index:20;
+}
+article h1{
+	position: absolute;
+	left: 80px;
+	top: 85px;
+   color: blue;
+   background-color: white;
+   padding: 5px;
+   font-size: 35px;
+   font-family: 'Roboto'
+}
